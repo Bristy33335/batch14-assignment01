@@ -20,9 +20,10 @@ nav{
     justify-content: space-between;
     align-items: center;
     background-color: #FFFFFF;
-    max-width: 1320px;
+    max-width: 1220px;
+    height: 50px;
     margin: auto;
-    padding: 12px 0px;
+    padding: 60px px;
 }
 ul li a{
     text-decoration: none;
@@ -45,11 +46,10 @@ ul li a{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-image: url(./banner.jpg);
+    background-image: linear-gradient(#00000080, #00000080), url(./banner.jpg);
     max-width: 1320px;
     margin: auto;
      height: 786px;
-     width: 1551px;
     color: white;
     align-items: center;
     text-align: center;
