@@ -320,3 +320,67 @@ ul li a{
       font-size: 0.9rem;
       color: #aaa;
     }
+
+
+
+
+
+
+
+    .cta-banner {
+      background-color: #FFFFF; /* deep blue */
+      color: #333333;
+      padding: 40px 20px;
+    }
+
+    .cta-container {
+      max-width: 1320px;
+      width: 1551px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .cta-container h2 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+    }
+
+    .cta-container p {
+      font-size: 24px;
+      color: #475b72; /* lighter blue accent */
+      margin-bottom: 25px;
+    }
+
+    .cta-buttons {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .btn-primary {
+      background-color: #FFFFFF;
+      color: #1D4ED8;
+      border: none;
+    }
+
+    .btn-primary:hover {
+      background-color: #93C5FD;
+      color: #FFFFFF;
+    }
+
+    .btn-secondary {
+      background-color: #333333;
+      color: #FFFFFF;
+      border: none;
+      padding: 10px;
+      border-radius: 8px;
+    }
+
+    .btn-secondary:hover {
+      background-color: #575757;
+    }
+    
