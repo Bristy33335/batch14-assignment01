@@ -73,7 +73,7 @@ ul li a{
     text-align: center;
     margin: auto;
     margin-bottom: -320px;
-    margin-top: 150px;
+    margin-top: 80px;
  }
  .speakers{
     width: 1320px;
@@ -136,6 +136,7 @@ ul li a{
     font-weight: bold;
     color: #0D1B2A;
     text-align: center;
+    margin-top: -250px;
  }
 .sub{
     font-size: 16px;
