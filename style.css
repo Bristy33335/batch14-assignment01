@@ -49,7 +49,7 @@ ul li a{
     background-image: linear-gradient(#00000080, #00000080), url(./banner.jpg);
     max-width: 1320px;
     margin: auto;
-     height: 786px;
+    height: 786px;
     color: white;
     align-items: center;
     text-align: center;
