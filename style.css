@@ -76,11 +76,10 @@ ul li a{
     margin-top: 80px;
  }
  .speakers{
-    width: 1320px;
+   max-width: 1220px;
     height: 1322px;
     padding: 20px 60px;
     margin: auto;
-    margin-bottom: -36px;
  }
 
  .cloumn{
@@ -94,7 +93,7 @@ ul li a{
     gap: 32px;
     margin: auto;
     max-width: 1320px;
-    width: 1297px;
+    
     height: 1551px;
     align-items: center;
     text-align: center;
@@ -300,10 +299,8 @@ ul li a{
     }
 
     .footer-social a {
-      color: #fff;
-      text-decoration: none;
-      font-size: 1.2rem;
-      transition: color 0.3s;
+      color: #FFFFFF;
+      font-size: 12px;
     }
 
     .footer-social a:hover {
@@ -317,8 +314,8 @@ ul li a{
 
     .footer-bottom {
       text-align: center;
-      font-size: 0.9rem;
-      color: #aaa;
+      font-size: 10px;
+      color: #aaaaaa;
     }
 
 
