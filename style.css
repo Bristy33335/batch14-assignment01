@@ -144,8 +144,10 @@ ul li a{
 }
 .secure-spot{
     height: 668px;
-    width: 1440px;
+    max-width: 1440px;
     margin: auto;
+    align-items: center;
+    text-align: center;
 }
 .cards{
     display: flex;
@@ -154,6 +156,7 @@ ul li a{
     align-items: center;
     flex-wrap: wrap;
     padding: 35px;
+    margin: auto;
 }
 .white-button{
    background-color: #FFFFFF;
@@ -231,7 +234,7 @@ ul li a{
   border-radius: 32px;
   text-align: left;
   border: 1px solid #E5E7EB; 
-  width: 370.66px;
+  width: 350px;
   height: 444px;
   margin-bottom: 20px;
   display: flex;
@@ -243,7 +246,7 @@ ul li a{
   border-radius: 8px;
   text-align: left;
   border: 1px solid #; 
-  width: 370.66px;
+  width: 350px;
   height: 444px;
   margin-bottom: 20px;
   display: flex;
