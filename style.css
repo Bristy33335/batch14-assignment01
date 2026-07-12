@@ -23,7 +23,7 @@ nav{
     max-width: 1220px;
     height: 50px;
     margin: auto;
-    padding: 60px px;
+    padding: 20px 0;
 }
 ul li a{
     text-decoration: none;
@@ -36,8 +36,6 @@ ul li a{
    gap: 10px;
    height: 26px;
    width: 363px;
-   left: 482.5px;
-   top: 12px;
    align-items: center;
    padding: 0;
     
@@ -46,10 +44,14 @@ ul li a{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    max-width: 1320px;
+    min-height: 786px;
     background-image: linear-gradient(#00000080, #00000080), url(./banner.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
     max-width: 1320px;
     margin: auto;
-    height: 786px;
     color: white;
     align-items: center;
     text-align: center;
@@ -72,17 +74,17 @@ ul li a{
     font-weight: bold;
     text-align: center;
     margin: auto;
-    margin-bottom: -320px;
     margin-top: 80px;
  }
  .speakers{
    max-width: 1220px;
-    height: 1322px;
+   
     padding: 20px 60px;
+    padding-bottom: 80px;
     margin: auto;
  }
 
- .cloumn{
+ .column{
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -94,7 +96,7 @@ ul li a{
     margin: auto;
     max-width: 1320px;
     
-    height: 1551px;
+    
     align-items: center;
     text-align: center;
     
@@ -123,19 +125,14 @@ ul li a{
     font-weight: Semi bold;
     color: #2563EB;
  }
- .secure-spot{
-    height: 718px;
-    font-weight: 1551px;
-    width: 1551px;
-    max-width: 1320px
-    padding: 35px;
- }
+ 
  .heading3{
     font-size: 48px;
     font-weight: bold;
     color: #0D1B2A;
     text-align: center;
-    margin-top: -250px;
+    margin-top: 8px;
+    
  }
 .sub{
     font-size: 16px;
@@ -143,11 +140,11 @@ ul li a{
     text-align: center;
 }
 .secure-spot{
-    height: 668px;
-    max-width: 1440px;
+    
+    max-width: 1442px;
     margin: auto;
-    align-items: center;
     text-align: center;
+    padding-top: 8px;
 }
 .cards{
     display: flex;
@@ -157,6 +154,7 @@ ul li a{
     flex-wrap: wrap;
     padding: 35px;
     margin: auto;
+    gap: 10px;
 }
 .white-button{
    background-color: #FFFFFF;
@@ -235,7 +233,6 @@ ul li a{
   text-align: left;
   border: 1px solid #E5E7EB; 
   width: 350px;
-  height: 444px;
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
@@ -245,9 +242,8 @@ ul li a{
   padding: 32px;
   border-radius: 8px;
   text-align: left;
-  border: 1px solid #; 
+  border: none;
   width: 350px;
-  height: 444px;
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
@@ -273,7 +269,6 @@ ul li a{
 
 
  .f{
-   width: 1551px;
    height: 145px;
    max-width: 1320px;
    margin: auto;
@@ -328,14 +323,13 @@ ul li a{
 
 
     .cta-banner {
-      background-color: #FFFFF; /* deep blue */
+      background-color: #FFFFFF; 
       color: #333333;
       padding: 40px 20px;
     }
 
     .cta-container {
       max-width: 1320px;
-      width: 1551px;
       margin: 0 auto;
       display: flex;
       flex-direction: column;
@@ -343,7 +337,7 @@ ul li a{
       text-align: center;
     }
 
-    .cta-container h2 {
+    .cta-container h1 {
       font-size: 2rem;
       margin-bottom: 15px;
     }
